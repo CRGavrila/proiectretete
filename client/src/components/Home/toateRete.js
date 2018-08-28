@@ -56,14 +56,14 @@ const Afisare = (props) => (
                         <CardMedia
                             className={props.classes.poza}
                             image={`/imagini/${item.imagine}`}
-                            title={item.titlu_reteta}
+                            title={item.titlu_reteta.slice(0,20)}
                         />
                         <CardContent className={props.classes.continut}
                             style={{
                                 overflowY: "hidden",
                             }}
                         >
-                            <Typography variant="headline"> {item.titlu_reteta} </Typography>
+                            <Typography variant="headline"> {item.titlu_reteta.slice(0,30)} </Typography>
                             <Typography
                                 variant="body2"
                                 color="textSecondary"
@@ -72,7 +72,7 @@ const Afisare = (props) => (
 
                                 }}
                             >
-                                {item.descriere_reteta}
+                                {item.descriere_reteta.slice(0,100)}
                             </Typography>
                         </CardContent>
                     </Link>
