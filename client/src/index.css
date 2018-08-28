@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #50d07d;
+  font-family: sans-serif;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+header {
+  background-color: #b2cecf;
+  position: fixed;
+  padding: 15px;
+  width: 100%;
+  z-index: 1;
+}
+
+.content {
+  margin: 0  auto;
+  padding-top: 80px;
+  width: 100%;
+}
+
+footer {
+  background: #c5c0c2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.coverReteta {
+  display: block;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  background-position: 50%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto 1em;
+  max-height: 600px;
+  max-width: 600px;
+}
+.coverReteta:before {
+  padding-bottom: 33.33333%;
+  content: "";
+  display: block;
+}
+
+.chipIngrediente {
+  margin:5px;
+}
+
+.paragraphReteta::before {
+  content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0";
+}
+
+.contentReteta{
+  margin: 0 auto;
+  padding-top: 80px;
+  width: 100%;
+}

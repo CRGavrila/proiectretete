@@ -1,0 +1,58 @@
+.form_element {
+    margin: 20px 0px;
+}
+
+.form_element label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+input {
+    font-size: 20px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+button {
+    background: #3F51B5;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+select {
+    width: 236px;
+    font-size: 15px;
+}
+
+.label_error {
+    color: #FF5722;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.formData {
+    text-align: center;
+}
+
+.descriereForm {
+    width: 100%;
+    height: 150px;
+}
+
+#imagine {
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+}
+
+input.search{
+    font-size: 15px;
+    padding: 0px;
+    box-sizing: border-box;
+}
